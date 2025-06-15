@@ -78,16 +78,15 @@ body {
 
     .hero-bg-logo {
       position: absolute;
-      top: 40%;
+      top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      width: 60vw;           /* Responsive width */
-      max-width: 700px;      /* Optional: limit max size */
-      height: 100vh;         /* Match hero section height */
-      object-fit: contain;   /* Keep aspect ratio */
+      width: 85vw;
+      height: 85vh;
+      object-fit: cover;
       opacity: 0.5;
       z-index: 1;
-      filter: blur(8px);     /* Add blur effect */
+      filter: blur(8px);
       pointer-events: none;
     }
 
