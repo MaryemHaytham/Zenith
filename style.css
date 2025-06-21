@@ -3,6 +3,7 @@ body {
       background: #050015;
       color: #fff;
       font-family: 'Poppins', 'Segoe UI', sans-serif;
+      
     }
 
     .navbar {
@@ -417,4 +418,7 @@ body {
       background: #00cfc820;
     }
 
-    
+    body, body * {
+  text-transform: uppercase !important;
+}
+
